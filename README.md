@@ -9,7 +9,7 @@ Check out the documentation on the bundles [wiki page](https://github.com/bruery
 
 ## Support
 
-For general support and questions, please use [Disqus](https://disqus.com/home/channel/thebruery/discussion/channel-thebruery/bug_reporting).
+For general support and questions, please use [Disqus](https://thebruery.disq.us).
 
 If you think you find a bug or you have a feature idea to propose, feel free to open a issue
 **after looking** at the [contributing guide](CONTRIBUTING.md).
