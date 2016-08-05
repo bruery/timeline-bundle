@@ -1,12 +1,10 @@
-/**
+/*
+ * This file is part of the Bruery Platform.
  *
- * This file is part of the Sonata package.
+ * (c) Viktore Zara <viktore.zara@gmail.com>
+ * (c) Mell Zamorw <mellzamora@outlook.com>
  *
- * (c) Thomas Rabaix <thomas.rabaix@sonata-project.org>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- *
+ * Copyright (c) 2016. For the full copyright and license information, please view the LICENSE  file that was distributed with this source code.
  */
 
 ;(function ( $, window, document, undefined ) {
