@@ -22,6 +22,7 @@
     "sonata-project/classification-bundle": "^3.0"
   },
   "replace": {
+    "bruery/core-bundle": "self.version",
     "bruery/admin-bundle": "self.version",
     "bruery/block-bundle": "self.version",
     "bruery/classification-bundle": "self.version"
