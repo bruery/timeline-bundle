@@ -15,7 +15,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Bruery\ClassificationBundle\DependencyInjection\Compiler\OverrideServiceCompilerPass;
 use Bruery\ClassificationBundle\DependencyInjection\Compiler\AddProviderCompilerPass;
 
-class ClassificationBundle extends Bundle
+class BrueryClassificationBundle extends Bundle
 {
     /**
      * {@inheritDoc}
