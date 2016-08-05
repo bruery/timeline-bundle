@@ -19,7 +19,7 @@
     "twig/extensions": "~1.0",
     "sonata-project/admin-bundle": "^3.0",
     "sonata-project/block-bundle": "^3.0",
-    "sonata-project/classification-bundle": "^3.0",
+    "sonata-project/classification-bundle": "^3.0"
   },
   "replace": {
     "bruery/admin-bundle": "self.version",
