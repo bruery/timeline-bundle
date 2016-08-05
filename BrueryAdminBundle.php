@@ -1,6 +1,7 @@
 <?php
 
 namespace Bruery\AdminBundle;
+
 /**
  * This file is part of the Bruery Platform.
  *
