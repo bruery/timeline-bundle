@@ -10,6 +10,7 @@
  */
 
 namespace Bruery\DoctrineORMAdminBundle\Filter;
+
 use Sonata\DoctrineORMAdminBundle\Filter\BooleanFilter as BaseBooleanFilter;
 
 class BooleanFilter extends BaseBooleanFilter
