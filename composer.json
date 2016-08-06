@@ -19,13 +19,15 @@
     "twig/extensions": "~1.0",
     "sonata-project/admin-bundle": "^3.0",
     "sonata-project/block-bundle": "^3.0",
-    "sonata-project/classification-bundle": "^3.0"
+    "sonata-project/classification-bundle": "^3.0",
+    "sonata-project/doctrine-orm-admin-bundle": "^3.0"
   },
   "replace": {
     "bruery/core-bundle": "self.version",
     "bruery/admin-bundle": "self.version",
     "bruery/block-bundle": "self.version",
-    "bruery/classification-bundle": "self.version"
+    "bruery/classification-bundle": "self.version",
+    "bruery/doctrine-orm-admin-bundle": "self.version"
   },
   "autoload": {
     "psr-4": { "Bruery\\": "src/bundles/" }
