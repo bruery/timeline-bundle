@@ -1,4 +1,4 @@
-# doctrine-orm-admin-bundle
+# DoctrineOrmAdminBundle
 
 A [SonataDoctrineOrmAdminBundle](https://github.com/sonata-project/SonataDoctrineOrmAdminBundle) Extension.
 
