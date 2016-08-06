@@ -1,4 +1,4 @@
-# media-bundle
+# MediaBundle
 
 A [SonataMediaBundle](https://github.com/sonata-project/SonataMediaBundle) Extension.
 
