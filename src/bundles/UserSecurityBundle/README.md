@@ -1,4 +1,4 @@
-# user-security-bundle
+# UserSecurityBundle
 
 
 ## Description:

@@ -1,4 +1,4 @@
-# formatter-bundle
+# FormatterBundle
 
 A [SonataFormatterBundle](https://github.com/sonata-project/SonataFormatterBundle) Extension.
 
