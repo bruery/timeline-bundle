@@ -1,4 +1,4 @@
-# timeline-bundle
+# TimelineBundle
 
 A [SonataTimelineBundle](https://github.com/sonata-project/SonataTimelineBundle) Extension.
 
