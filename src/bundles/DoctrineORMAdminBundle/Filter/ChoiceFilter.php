@@ -16,7 +16,7 @@ use Sonata\AdminBundle\Form\Type\Filter\ChoiceType;
 
 class ChoiceFilter extends BaseChoiceFilter
 {
-//    /**
+    //    /**
 //     * {@inheritdoc}
 //     */
 //    public function getOperatorOptions()

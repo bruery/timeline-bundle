@@ -51,6 +51,5 @@ class OverrideCompilerPass implements CompilerPassInterface
 
         $filter = $container->getDefinition('sonata.admin.orm.filter.type.string');
         $filter->setClass($container->getParameter('bruery_doctrine_orm_admin.filter.type.string.class'));
-
     }
 }

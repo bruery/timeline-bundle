@@ -10,6 +10,7 @@
  */
 
 namespace Bruery\DoctrineORMAdminBundle\Filter;
+
 use Sonata\DoctrineORMAdminBundle\Filter\DateTimeRangeFilter as BaseDateTimeRangeFilter;
 
 class DateTimeRangeFilter extends BaseDateTimeRangeFilter
