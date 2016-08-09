@@ -78,9 +78,9 @@
                 {% endif %}
             {% endif %}
 
-	        {# block assets #}
-			{{ sonata_block_include_stylesheets('screen', app.request.basePath) }}
-			{{ sonata_block_include_javascripts('screen', app.request.basePath) }}
+            {# block assets #}
+            {{ sonata_block_include_stylesheets('screen', app.request.basePath) }}
+            {{ sonata_block_include_javascripts('screen', app.request.basePath) }}
         {% endblock %}
 
         <title>
@@ -222,7 +222,7 @@
                                 {% endif %}
                             {% endblock side_bar_nav %}
                             {% block side_bar_after_nav %}
-                                <p class="text-center small" style="border-top: 1px solid #444444; padding-top: 10px"><a href="https://sonata-project.org" rel="noreferrer" target="_blank">sonata project</a></p>
+                                <p class="text-center small" style="border-top: 1px solid #444444; padding-top: 10px"><a href="{{ 'bruery_link'|trans({}, 'SonataAdminBundle') }}" rel="noreferrer" target="_blank">{{ 'bruery_powered_by'|trans({}, 'SonataAdminBundle') }} <b>{{ 'bruery_name'|trans({}, 'SonataAdminBundle') }}</b></a></p>
                             {% endblock %}
                         {% endblock sonata_side_nav %}
                     </section>
