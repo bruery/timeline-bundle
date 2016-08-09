@@ -255,12 +255,6 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="search"]
     color: #34495e;
 }
 
-/* "loading more results" message */
-/*.select2-more-results.select2-active {*/
-    /*background: #f4f4f4 url('select2-spinner.gif') no-repeat 100%;*/
-    /*padding: 4px 7px;*/
-/*}*/
-
 /* input in dropdown */
 .select2-search input {
     background: transparent;
@@ -568,41 +562,15 @@ table.bruery-table-orm > tbody > tr > td.control-group > input[type="text"] {
     padding-right: 10px !important;
 }
 
-/*.bruery-pagination-primary >li>a {*/
-    /*color: #fff;*/
-    /*background-color: #367fa9;*/
-    /*border-color: #3c8dbc;*/
-/*}*/
-/*.bruery-pagination-info >li>a {*/
-    /*color: #fff;*/
-    /*background-color: #00c0ef;*/
-    /*border-color: #00c0ef;*/
-/*}*/
-/*.bruery-pagination-info>.active>a,*/
-/*.bruery-pagination-info>.active>a:focus,*/
-/*.bruery-pagination-info>.active>a:hover,*/
-/*.bruery-pagination-info>.active>span,*/
-/*.bruery-pagination-info>.active>span:focus,*/
-/*.bruery-pagination-info>.active>span:hover {*/
-    /*background-color: #00acd6;*/
-    /*border-color: #00acd6;*/
-/*}*/
-/*.bruery-pagination-success >li>a {*/
-    /*color: #fff;*/
-    /*background-color: #00a65a;*/
-    /*border-color: #008d4c;*/
-/*}*/
-/*.bruery-pagination-danger >li>a {*/
-    /*color: #fff;*/
-    /*background-color: #d73925;*/
-    /*border-color: #dd4b39;*/
-/*}*/
+.logo img+span {
+    width: 132px;
+    text-align: left;
+    margin-left: 8px;
+}
 
-/*.bruery-pagination-warning >li>a {*/
-    /*color: #fff;*/
-    /*background-color: #e08e0b;*/
-    /*border-color: #f39c12;*/
-/*}*/
+.icheckbox_square-blue, .iradio_square-blue {
+    margin: 0 3px;
+}
 
 @media (max-width: 767px) {
 
