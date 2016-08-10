@@ -1,4 +1,4 @@
-# oauth-server-bundle
+# OAuthServerBundle
 
 Implementation of the [FOSOAuthServerBundle](https://github.com/FriendsOfSymfony/FOSOAuthServerBundle).
 
