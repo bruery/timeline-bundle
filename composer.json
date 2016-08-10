@@ -34,7 +34,9 @@
     "sonata-project/user-bundle": "^3.0",
 
     "stof/doctrine-extensions-bundle": "^1.2.2",
-    "simplethings/entity-audit-bundle": "~0.8"
+    "simplethings/entity-audit-bundle": "~0.8",
+    
+    "friendsofsymfony/oauth-server-bundle": "^1.5"
   },
   "replace": {
     "bruery/core-bundle": "self.version",
@@ -45,6 +47,7 @@
     "bruery/formatter-bundle": "self.version",
     "bruery/media-bundle": "self.version",
     "bruery/timeline-bundle": "self.version",
+    "bruery/oauth-server-bundle": "self.version",
     "bruery/entity-audit-bundle": "self.version"
   },
   "autoload": {
