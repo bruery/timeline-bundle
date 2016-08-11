@@ -65,7 +65,7 @@ class CollectionManager extends BaseCollectionManager
             ->useResultCache(true, 3600);
 
         try {
-            return $q->getResult();
+            return $query->getResult();
         } catch (\Exception $e) {
             throw $e;
             return false;
