@@ -1,6 +1,6 @@
 # The Bruery - Business Application Platform  (BAP)
 
-![Alt text](https://raw.githubusercontent.com/bruery/platform/master/src/platform/Resources/img/bruery-logo.png "Bruery")
+![Alt text](https://raw.githubusercontent.com/bruery/platform/master/src/platform/Resources/img/bruery-logo2.png "Bruery")
 
 The Bruery Platform offers developers a bootstrap template for developing business applications, by combining the tools they need. Built in PHP5, Symfony2 full-stack and extends [Sonata Project Bundles](http://sonata-project.org), it seamlessly integrates
 into [Bruery apps](https://github.com/bruery) or works entirely standalone.
