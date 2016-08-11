@@ -17,6 +17,15 @@ For general support and questions, please use [Disqus](https://disqus.com/home/c
 If you think you find a bug or you have a feature idea to propose, feel free to open a issue
 **after looking** at the [contributing guide](CONTRIBUTING.md).
 
+## Implementations
+
+- [Bassoon](https://github.com/bruery/bassoon) - implementation of Bruery Platform.
+- [Giggle](https://github.com/bruery/giggle) - Learning Management System (LMS).
+- [Fuzzy Spork](https://github.com/bruery/fuzzy-spork) - Human Resource Information System (HRIS).
+- [Parakeet](https://github.com/bruery/parakeet) - Web based Payroll System.
+- [Eureka](https://github.com/bruery/eureka) - SSO for Bruery Platform.
+- [Sniffle](https://github.com/bruery/sniffle) - Digital Asset Management System (DAMS).
+
 ## License
 
 This package is available under the [MIT license](LICENSE).
