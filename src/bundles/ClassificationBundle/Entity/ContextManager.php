@@ -48,6 +48,7 @@ class ContextManager extends BaseContextManager
             ->setParameter('context', $contexts)
             ->setParameter('enabled', $enabled)
             ->getQuery()
+            ->useQueryCache(true, 3600)
             ->useResultCache(true, 3600);
 
         $defunctContexts = $query->getResult();
