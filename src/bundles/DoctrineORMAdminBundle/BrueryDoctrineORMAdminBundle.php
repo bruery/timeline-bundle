@@ -10,8 +10,17 @@
 
 namespace Bruery\DoctrineORMAdminBundle;
 
+use Bruery\DoctrineORMAdminBundle\DependencyInjection\Compiler\OverrideCompilerPass;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class BrueryDoctrineORMAdminBundle extends Bundle
 {
+    /**
+     * {@inheritDoc}
+     */
+    public function build(ContainerBuilder $container)
+    {
+        $container->addCompilerPass(new OverrideCompilerPass());
+    }
 }

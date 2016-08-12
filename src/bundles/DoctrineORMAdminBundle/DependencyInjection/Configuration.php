@@ -10,6 +10,7 @@
 
 namespace Bruery\DoctrineORMAdminBundle\DependencyInjection;
 
+use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
@@ -21,12 +22,43 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('bruery_doctrine_orm_admin');
-
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
-
+        $node = $treeBuilder->root('bruery_doctrine_orm_admin');
+        $this->addSettingsSection($node);
         return $treeBuilder;
+    }
+
+    /**
+     * @param \Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition $node
+     */
+    private function addSettingsSection(ArrayNodeDefinition $node)
+    {
+        $node
+            ->children()
+                ->arrayNode('settings')
+                    ->addDefaultsIfNotSet()
+                    ->children()
+                        ->scalarNode('class')->defaultValue('Bruery\\DoctrineORMAdminBundle\\Model\\SettingsManager')->end()
+                        ->arrayNode('proxy_query')
+                            ->addDefaultsIfNotSet()
+                            ->children()
+                                ->scalarNode('class')->defaultValue('Bruery\\DoctrineORMAdminBundle\\Datagrid\\ProxyQuery')->end()
+                            ->end()
+                        ->end()
+                        ->arrayNode('model_manager')
+                            ->addDefaultsIfNotSet()
+                            ->children()
+                                ->scalarNode('class')->defaultValue('Bruery\\DoctrineORMAdminBundle\\Model\\ModelManager')->end()
+                            ->end()
+                        ->end()
+                        ->arrayNode('doctrine_cache')
+                            ->addDefaultsIfNotSet()
+                            ->children()
+                                ->scalarNode('enabled')->defaultValue(true)->end()
+                                ->scalarNode('ttl')->defaultValue(3600)->end()
+                            ->end()  #--end audit children
+                        ->end() #--end audit
+                    ->end()
+                ->end()
+            ->end();
     }
 }
