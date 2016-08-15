@@ -84,7 +84,6 @@ class ProxyQuery extends BaseProxyQuery
 
         if($this->settingsManager && $this->settingsManager->getSettings('enabled') && $this->settingsManager->getSettings('ttl')) {
             return $this->getFixedQueryBuilder($queryBuilder)
-                ->setCacheable(true)
                 ->getQuery()
                 ->useQueryCache(true, $this->settingsManager->getSettings('ttl'))
                 ->useResultCache(true, $this->settingsManager->getSettings('ttl'))
