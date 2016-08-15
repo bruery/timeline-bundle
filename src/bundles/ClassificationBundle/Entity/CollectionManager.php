@@ -59,7 +59,6 @@ class CollectionManager extends BaseCollectionManager
             ->where('c.context = :context')
             ->andWhere('c.enabled = :enabled')
             ->setParameters(array('context'=>$context, 'enabled'=>$enabled))
-            ->setCacheable(true)
             ->getQuery()
             ->useQueryCache(true, 3600)
             ->useResultCache(true, 3600);
