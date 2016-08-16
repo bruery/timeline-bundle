@@ -44,12 +44,16 @@ body > .header .logo {
     max-width: 60px;
 }
 
-.logo span {
+.main-header .logo .logo-lg {
     display: inline-block;
-    line-height: 1;
-    vertical-align: middle;
-    width: 200px;
 }
+
+/*.logo span {*/
+    /*display: inline-block;*/
+    /*line-height: 1;*/
+    /*vertical-align: middle;*/
+    /*width: 200px;*/
+/*}*/
 .logo img + span { width: 140px; }
 
 .open > .dropdown-menu {
@@ -251,6 +255,15 @@ body.fixed .content-header .navbar {
 }
 
 @media(min-width:768px) {
+
+    .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
+        margin-left: -13px;
+    }
+
+    .sidebar-mini.sidebar-collapse .main-sidebar .sidebar>.bruery-powered {
+        display:  none;
+    }
+
     .navbar-static-side {
         z-index: 1;
         position: absolute;

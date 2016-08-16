@@ -45,6 +45,12 @@ class BrueryAdminExtension extends Extension
             $container->setParameter('bruery.admin.settings.footable', $config['footable_settings']);
         }
 
+        if (isset($config['options']['skin'])) {
+            $container->setParameter('bruery.admin.settings.skin', $config['options']['skin']);
+        } else {
+            $container->setParameter('bruery.admin.settings.skin', 'skin-black');
+        }
+
         $this->configureClassesToCompile();
     }
 
