@@ -106,7 +106,7 @@
         {% endblock %}
         </title>
     </head>
-    <body {% block body_attributes %}class="sonata-bc skin-black fixed"{% endblock %}>
+    <body {% block body_attributes %}class="sonata-bc hold-transition sidebar-mini{{ ' ' ~admin_pool.getOption('skin') }}"{% endblock %}>
     <div class="wrapper">
 
         {% block sonata_header %}
@@ -123,10 +123,11 @@
                         {% spaceless %}
                             <a class="logo" href="{{ path('sonata_admin_dashboard') }}">
                                 {% if 'single_image' == admin_pool.getOption('title_mode') or 'both' == admin_pool.getOption('title_mode') %}
-                                    <img src="{{ asset(admin_pool.titlelogo) }}" alt="{{ admin_pool.title }}">
+	                                <img class="logo-mini" src="{{ asset(admin_pool.titlelogo) }}" alt="{{ admin_pool.title }}">
+                                    <img class="logo-lg" src="{{ asset(admin_pool.titlelogo) }}" alt="{{ admin_pool.title }}">
                                 {% endif %}
                                 {% if 'single_text' == admin_pool.getOption('title_mode') or 'both' == admin_pool.getOption('title_mode') %}
-                                    <span>{{ admin_pool.title }}</span>
+                                    <span class="logo-lg"><b>{{ admin_pool.title }}</b></span>
                                 {% endif %}
                             </a>
                         {% endspaceless %}
@@ -222,7 +223,7 @@
                                 {% endif %}
                             {% endblock side_bar_nav %}
                             {% block side_bar_after_nav %}
-                                <p class="text-center small" style="border-top: 1px solid #444444; padding-top: 10px"><a href="{{ 'bruery_link'|trans({}, 'SonataAdminBundle') }}" rel="noreferrer" target="_blank">{{ 'bruery_powered_by'|trans({}, 'SonataAdminBundle') }} <b>{{ 'bruery_name'|trans({}, 'SonataAdminBundle') }}</b></a></p>
+                                <p class="bruery-powered text-center small" style="border-top: 1px solid #444444; padding-top: 10px"><a href="{{ 'bruery_link'|trans({}, 'SonataAdminBundle') }}" rel="noreferrer" target="_blank">{{ 'bruery_powered_by'|trans({}, 'SonataAdminBundle') }} <b>{{ 'bruery_name'|trans({}, 'SonataAdminBundle') }}</b></a></p>
                             {% endblock %}
                         {% endblock sonata_side_nav %}
                     </section>

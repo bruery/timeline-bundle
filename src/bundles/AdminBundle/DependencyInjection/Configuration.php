@@ -29,6 +29,7 @@ class Configuration implements ConfigurationInterface
                     ->addDefaultsIfNotSet()
                     ->children()
                         ->booleanNode('use_footable')->defaultTrue()->info('Enables Admin list responsive table')->end()
+                        ->scalarNode('skin')->defaultValue('skin-black')->info('AdminLTE Theme')->end()
                     ->end()
                 ->end()
                 ->arrayNode('pool')
