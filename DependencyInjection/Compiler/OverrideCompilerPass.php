@@ -29,6 +29,7 @@ class OverrideCompilerPass implements CompilerPassInterface
                 $definition->addMethodCall('setOption', array('use_footable', $container->getParameter('bruery.admin.options.use_footable')));
                 $definition->addMethodCall('setOption', array('footable_settings', $container->getParameter('bruery.admin.settings.footable')));
             }
+            $definition->addMethodCall('setOption', array('skin', $container->getParameter('bruery.admin.settings.skin')));
         }
     }
 }
