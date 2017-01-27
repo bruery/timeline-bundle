@@ -29,11 +29,7 @@
   },
   "replace": {
     "bruery/platform-core" : "self.version",
-    "bruery/core-bundle": "self.version",
-    "bruery/admin-bundle": "self.version",
-    "bruery/block-bundle": "self.version",
     "bruery/classification-bundle": "self.version",
-    "bruery/doctrine-orm-admin-bundle": "self.version",
     "bruery/formatter-bundle": "self.version",
     "bruery/media-bundle": "self.version",
     "bruery/timeline-bundle": "self.version",
