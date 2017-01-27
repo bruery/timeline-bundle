@@ -17,8 +17,6 @@
     "php": ">=5.3.3",
 
     "symfony/symfony":  "^2.8 || ^3.0",
-
-    "bruery/platform-core" : "^1.0",
     
     "sonata-project/classification-bundle": "^3.0",
     "sonata-project/formatter-bundle": "^3.0",
@@ -30,6 +28,7 @@
     "friendsofsymfony/oauth-server-bundle": "^1.5"
   },
   "replace": {
+    "bruery/platform-core" : "self.version",
     "bruery/core-bundle": "self.version",
     "bruery/admin-bundle": "self.version",
     "bruery/block-bundle": "self.version",
