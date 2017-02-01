@@ -18,7 +18,7 @@
 
     "symfony/symfony":  "^2.8 || ^3.0",
 
-    "bruery/platform": "1.0.x-dev",
+    "bruery/platform-core": "1.0.x-dev",
 
     "sonata-project/classification-bundle": "^3.0",
     "sonata-project/formatter-bundle": "^3.0",
