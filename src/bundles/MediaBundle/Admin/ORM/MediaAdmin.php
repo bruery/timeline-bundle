@@ -31,13 +31,12 @@ class MediaAdmin extends Admin
      * @param string                   $class
      * @param string                   $baseControllerName
      * @param Pool                     $pool
-     * @param CategoryManagerInterface $categoryManager
      */
-    public function __construct($code, $class, $baseControllerName, Pool $pool, CategoryManagerInterface $categoryManager)
+    public function __construct($code, $class, $baseControllerName, Pool $pool)
     {
         $this->maxPerPage = 8;
         $this->perPageOptions = array(8,12,16,32);
-        parent::__construct($code, $class, $baseControllerName, $pool, $categoryManager);
+        parent::__construct($code, $class, $baseControllerName, $pool);
     }
 
 
