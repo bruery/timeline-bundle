@@ -14,10 +14,10 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.3.3",
+    "php": "^7.2.0",
     "twig/twig": "~1.20|~2.0",
-    "twig/extensions": "~1.0",
-    "sonata-project/admin-bundle": "^3.0"
+    "twig/extensions": "^1.5.1",
+    "sonata-project/admin-bundle": "^3.31.1",
   },
   "replace": {
     "bruery/admin-bundle": "self.version"
@@ -27,7 +27,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-1.0": "1.x-dev"
+      "dev-2.0": "2.x-dev"
     }
   }
 }
