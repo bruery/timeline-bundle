@@ -14,26 +14,20 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.3.3",
-
-    "symfony/symfony":  "^2.8 || ^3.0",
-
-    "bruery/platform-core": "1.0.x-dev",
-
-    "sonata-project/classification-bundle": "^3.0",
-    "sonata-project/formatter-bundle": "^3.0",
-    "sonata-project/media-bundle": "^3.0",
-    "sonata-project/timeline-bundle": "^3.0",
-
-    "simplethings/entity-audit-bundle": "^1.0",
-    "snc/redis-bundle": "^2.0"
+    "php": "^7.2.0",
+    "twig/twig": "~1.20|~2.0",
+    "twig/extensions": "^1.5.1",
+    "sonata-project/admin-bundle": "^3.31.1",
+  },
+  "replace": {
+    "bruery/admin-bundle": "self.version"
   },
   "autoload": {
     "psr-4": { "Bruery\\": "src/bundles/" }
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "dev-2.0": "2.x-dev"
     }
   }
 }
